@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "yourdockerhubusername/mlops-model"
+        IMAGE_NAME = "2022bcs0208sanjana/mlops-model"
     }
 
     stages {
