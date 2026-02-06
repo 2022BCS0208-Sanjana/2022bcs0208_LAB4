@@ -22,7 +22,7 @@ pipeline {
         stage('Evaluate Model') {
             steps {
                 sh '''
-                python scripts/evaluate.py
+                python3 scripts/evaluate.py
                 echo "Name: Nagam Sanjana"
                 echo "Roll No: 2022BCS0208"
                 '''
